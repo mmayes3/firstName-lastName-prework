@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: blue;
+  background-color:skyblue;
+
+}
+h1{
+  writing-mode: horizontal-tb;
+  text-orientation: upright;
+  width: 40%;
+  font-size: 11px;
+  color: black;
+  margin:0;
+  padding:0;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); 
+
+
+
+}
+h2{
+  writing-mode: horizontal-tb;
+  width: 100%;
+  text-orientation: upright;
+  font-size: 4em;
+  color: white;
+  margin:0;
+  padding:0;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(30%); 
+}
+h3{
+  writing-mode: horizontal-tb;
+  text-orientation: upright;
+  font-size: 15px;
+  color:white;
+  margin:0;
+  padding:0;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 0%;
+  left: 1.5%;
+  transform: translateX(-50%) translateY(-20%);
+
+}
+.solid{
+  writing-mode: horizontal-tb;
+  text-orientation: upright;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-offset: 8px;
+  outline-color:white; 
+  font-size: 10px;
+  color: white;
+  margin:0;
+  padding:0;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%) translateY(120%); 
+
+}
+
