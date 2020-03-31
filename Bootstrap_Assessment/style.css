@@ -1,0 +1,37 @@
+html body {
+ 
+  
+  text-transform: uppercase;
+  
+  background-color:skyblue;
+
+}
+
+.jumbotron {
+  background: skyblue !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(0%) translateY(80%);
+}
+
+html h1{
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 4em;
+}
+html h8{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 11px;
+
+}
+.jumbotron>a{
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+
