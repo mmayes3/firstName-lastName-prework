@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+#Nav{
+    background: grey;
+    color: black;
+    margin-bottom: 2%;
+    padding: 0;
+    width: 100%;
+    
+    top: 0%;
+    left: 0%;
+    transform: translateX(0%) translateY(0%);
+}
+
+#Right{
+  background:red;
+  color: black;
+  float: right;
+  height: 29.5pc;
+  padding: 12%;
+  width: 25%;
+  margin-bottom: 20%;
+    
+}
+#Left{
+  background: blue;
+  
+  color: black;
+  float: left;
+  padding: 20%;
+  width: 50%;
+  margin-bottom: 20%;
+  height: 25pc;
+ 
+  
+}
+footer{
+    background: green;
+    color: black;
+    clear: both;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    
+    
+}
