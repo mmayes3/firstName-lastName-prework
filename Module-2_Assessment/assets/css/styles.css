@@ -1,0 +1,32 @@
+.nfl{
+    height:150px;
+}
+
+.word-image{
+    max-width: 100%;
+}
+
+body{
+    background-position: center center;
+    background-image: url(../images/field.jpg);
+}
+.container{
+    background-color: #ffffff!important;
+}
+
+#word-container >.word {
+    width: 20px;
+    height: 20px;
+    border-bottom: 1px #000000 solid;
+}
+
+#word-container>.word .visible {
+    width: 20px;
+    height: 20px;
+    border: none!important;
+}
+
+#guessed{
+    max-width: 100%;
+    overflow-x: scroll;
+}

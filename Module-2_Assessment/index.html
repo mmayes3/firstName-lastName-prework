@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>The NFL Game</title>
+</head>
+<body id="body">
+    <div class="container mt-3 rounded">
+        <div class="d-flex align-items-center justify-content-center mb-3">
+            <img class="responsive nfl" src="assets/images/nfl.png" alt="NFL">
+            <h1>
+                The NFL Word Game
+            </h1>
+        </div>
+        <div class="alert alert-primary" role="alert">
+            Press any key to get started!
+        </div>
+        <div class="row m-0">
+            <div class="col-12 col-md-6 border">
+                <img id="word-image" class="word-image" src="" alt="image">
+            </div>
+            <div class="col-12 col-md-6 border">
+                <div class="d-flex justify-content-center">
+                    <h4 class="mr-3">
+                        Wins:
+                    </h4>
+                    <h4 id="wins">
+                        0
+                    </h4>
+                </div>
+                <h5 class="text-center mt-5">
+                    Current Word
+                </h5>
+                <div class="d-flex justify-content-center my-5" id="word-container">
+                    
+                </div>
+                <div class="text-center my-5">
+                    <h5>
+                        Number of guesses remaining:
+                    </h5>
+                    <p id="remaining-guesses"></p>
+                </div>
+                <div class="text-center">
+                    <h5>
+                        Letters Already Guessed:
+                    </h5>
+
+                    <div id="guessed" class="d-flex">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
